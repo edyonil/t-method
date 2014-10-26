@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #8E8E8E;
+}
+
+body{
+	background-color: #EEE;
+	font-family: 'Open Sans', sans-serif;
+}
+.center{
+	width: 1004px;
+	margin: 0 auto; 
+	padding: 0px 10px;
+}
+a{
+	color:#FFF;
+}
+
+header{
+	width: 100%;
+	min-width: 1024px;
+	height: 156px;
+	display: block;
+	background: #f9c933; /* Old browsers */
+    background: -webkit-linear-gradient(#f9c933 0%, #dcb54f 100%);
+    background: -o-linear-gradient(#f9c933 0%, #dcb54f 100%);
+    background: linear-gradient(#f9c933 0%, #dcb54f 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c933', endColorstr='#dcb54f',GradientType=0 ); /* IE6-9 */
+}
+header img{
+	display: block;
+	margin: 0 auto;
+}
+header nav{
+	width: 380px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	padding: 5px 15px;
+	border: solid 1px #204E88;
+	border-radius: 50px;
+	color:#FFF;
+	font-size: 14px;
+}
+
+.titulo{
+	background-color: #265185;
+	width: 100%;
+	min-width: 1024px;
+	padding: 18px 0px;
+	width: 100%;
+	background: url('../img/seta_header.png') no-repeat center left #265185;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+	.titulo{
+		background-position: -200px 0px;	
+	}
+	
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.titulo{
+		background-position: -90px 0px;	
+	}
+	
+}
+@media (min-width: 1441px) and (max-width: 1440px) {
+	.titulo{
+		background-position: 0px 0px;
+	}
+	
+}
+.titulo h3{
+	font-weight: 400;
+	color: #FFF;
+	font-size: 25px;
+	padding-left: 56px; 
+}
+aside{
+	display: block;
+	float: left;
+	width: 150px;
+	margin-right: 10px;
+}
+figcaption{
+	font-size: 16px;
+	color: #2C5383;
+}
+figure p{
+	color:#444;
+	font-size: 12px;
+}
+article{
+	float: left;
+	display: block;
+	width: 840px;
+}
+article .conteudo{
+	padding-left: 20px;
+	border-left: 1px solid #999;
+}
+article p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+}
+footer{
+	min-width: 1024px;
+	width: 100%; 
+	display: block;
+	clear: both;
+	background-color: #1F4777;
+	text-align: center;
+	font-size: 12px;
+	padding: 20px 0px;
+	margin-top: 30px;
+}
+footer address{
+	color: #FFF;
+}
+.clearfix{
+	display: block;
+	content: "";
+	clear: both;
+}
+.label, .label > em{
+	color: #2C5383;
+	font-size: 14px;
+}
+.button {
+	background-color: #EFC23E;
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+.left{
+	float: left;
+	margin-left: 170px;
+}
+.home{
+	padding-top: 50px;
+	width: 1024px;
+	text-align: center;
+	min-height: 300px;
+}
+main section.center{
+	min-height: 350px;
+}
